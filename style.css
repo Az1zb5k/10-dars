@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto
+}
+/* header */
+header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+    color: gray;
+}
+header a:hover {
+    color: black;
+}
+header .parent {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+/* main */
+main .child {
+    width: 39%;
+}
+main h1 {
+    font-size: 50px;
+}
+main .parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+main p {
+    margin-top: -10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: gray;
+    line-height: 26px;
+}
+main button {
+    background-color: white;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+main button:hover {
+    background-color: #458FF6;
+    color: white;
+}
+main img {
+    width: 550px;
+}
+/* section1 */
+.section1 h2 {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 140px;
+    margin-bottom: 45px;
+}
+.sectionp{
+    color: gray;
+    width: 72%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.section1 .top, .section1 .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.section1 .top {
+    margin-bottom: 30px;
+}
+.service {
+    background-color: #E7E7E7;
+    padding: 28px;
+    width: 27%;
+    border-radius: 20px;
+}
+.service img {
+    margin-bottom: 20px;
+}
+.service p {
+    line-height: 26px;
+}
+.service:hover {
+    background-color: #458FF6;
+    color: white;
+}
+.section1 button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: #458FF6;
+    background-color: white;
+    border: 0.5px solid #458FF6;
+    border-radius: 30px;
+}
+.sectionbutton {
+    display: flex;
+    justify-content: center;
+}
+.section1 button:hover {
+    background-color: #458FF6;
+    color: white;
+}
+/* section2 */
+.section2 h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.section2 .dad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2 img {
+    width: 50%;
+}
+.section2div {
+    width: 39%;
+}
+.section2div h3 {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+.section2div p {
+    color: gray;
+    line-height: 26px;
+}
+.section2div button {
+    padding: 15px 30px;
+    background-color: white;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.section2div button:hover {
+    color: white;
+    background-color: #458FF6;
+}
+/* section3 */
+.section3 h2 {
+    text-align: center;
+    font-size: 34px;
+    margin: 100px 0;
+}
+.dad3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.children {
+    width: 30%;
+}
+.children h3 {
+    line-height: 32px;
+    font-size: 21px;
+    width: 90%;
+    margin: 10px;
+}
+.children p {
+    line-height: 28px;
+    font-size: 16px;
+    color: gray;
+    margin: 10px;
+}
+.children a{
+    text-decoration: none;
+    color: #458FF6;
+    line-height: 28px;
+    font-size: 16px;
+    margin: 10px;
+} 
+.sec3button {
+    display: flex;
+    justify-content: center;
+}
+.sec3button button {
+    border: 1px solid #458FF6;
+    background-color: white;
+    color: #458FF6;
+    border-radius: 30px;
+    padding: 15px 50px;
+    margin-top: 70px;
+}
+.sec3button button:hover {
+    background-color: #458FF6;
+    color: white;
+}
+/* footer */
+footer {
+    background-color: #67C3F3;
+}
+.footerdad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 432px;
+    padding: 30px;
+    margin-top: 150px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 40px;
+}
+footer p {
+    color: white;
+    line-height: 30px;
+}
+footer h3 {
+    color: white;
+    line-height: 30px;    
+}
+.footerchild1 {
+    width: 40%;
+}
